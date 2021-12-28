@@ -40,7 +40,7 @@ export default function Field() {
     	className={classes.root}
     	style={{width: getWidth()}}
     >
-    	{cells.map((cell, index) => cell)}
+    	{cells.map(cell => cell)}
     </div>
   );
 }
